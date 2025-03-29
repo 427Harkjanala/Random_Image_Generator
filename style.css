@@ -1,0 +1,36 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f40606;
+}
+.img-container{
+    text-align: center;
+}
+.img-container img{
+    margin: 10px;
+    border-radius: 10px;
+    background-color: lightgrey;
+    width: 300px;
+    height: 300px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.5);
+}
+
+.btn{
+    padding: 10px 20px;
+    margin: 20px;
+    border-radius: 5px;border: none;
+    background-color: slateblue;
+    color: aliceblue;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(119,106,206);
+}
